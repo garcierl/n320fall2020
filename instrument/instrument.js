@@ -6,7 +6,7 @@ class Instrument {
     }
 
     playInstrument() {
-            console.log(this.family + this.verb + " at " + this.loudness + "dB")
+            console.log(this.family + this.verb + " at " + this.loudness + " dB")
     }
 
 }
