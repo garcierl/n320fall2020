@@ -27,20 +27,20 @@ function BuyItem() {
     itemDiv.innerHTML = firstCandy.render()
 }
 
-/**let SecondCandy = new vendingmachine("M&M");
-let itemDiv =document.getElementById("itemDiv");
-itemDiv.innerHTML = SecondCandy.render();
+let SecondCandy = new vendingmachine("M&M");
+let item3Div =document.getElementById("item3Div");
+item3Div.innerHTML = SecondCandy.render();
 
 function BuyItem() {
     SecondCandy.buy();
-    itemDiv.innerHTML = SecondCandy.render()
-}
+    item3Div.innerHTML = SecondCandy.render()
+} 
 
 let firstChips = new vendingmachine("Lays");
-let itemDiv =document.getElementById("itemDiv");
-itemDiv.innerHTML = firstChips.render();
+let item2Div =document.getElementById("item2Div");
+item2Div.innerHTML = firstChips.render();
 
 function BuyItem() {
     firstChips.buy();
-    itemDiv.innerHTML = firstChips.render()
-} **/
+    item2Div.innerHTML = firstChips.render()
+}
