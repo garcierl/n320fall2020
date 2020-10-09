@@ -1,0 +1,72 @@
+#blueRect{
+    background-color: navy;
+    margin: 0 auto;
+    height: 100px;
+    padding: 50px;
+    width: 85%;
+}
+
+
+#purple_rect1{
+background-color: purple;
+margin: 25px auto;
+height: 100px;
+width: 15%;
+padding: 50px;
+}
+
+#purple_rect2{
+    background-color: purple;
+    margin: 25px auto;
+    height: 100px;
+    width: 15%;
+    padding: 50px;
+    }
+
+    #purple_rect2{
+        background-color: purple;
+        margin: 25px auto;
+        height: 100px;
+        width: 15%;
+        padding: 50px;
+        }    
+        #purple_rect3{
+            background-color: purple;
+            margin: 25px auto;
+            height: 100px;
+            width: 15%;
+            padding: 50px;
+            }
+            #purple_rect4{
+                background-color: purple;
+                margin: 25px auto;
+                height: 100px;
+                width: 15%;
+                padding: 50px;
+                }
+                #purple_rect5{
+                    background-color: purple;
+                    margin: 25px auto;
+                    height: 100px;
+                    width: 15%;
+                    padding: 50px;
+                    }
+                    #purple_rect6{
+                        background-color: purple;
+                        margin: 25px auto;
+                        height: 100px;
+                        width: 15%;
+                        padding: 50px;
+                        }
+#container{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+   margin: 0 auto;
+}
+
+.Title{
+    color: navy;
+    font-size: 50px;
+    margin-left: 75px;
+}
