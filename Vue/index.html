@@ -8,9 +8,9 @@
 <body>
 
 <div id="app">
-    {{ message }}
-<book></book>
-    <button v-if="ready">Other Book</button>
+<book v-bind:book="book" v-bind:key="book.id"  v-for="book in Books"  v-if="book.id == 1"></book>
+<div v-show="ready">  <book v-bind:book="book" v-bind:key="book.id"  v-for="book in Books" v-if="book.id == 2" ></book></div>
+<button v-on:click="ready = !ready">Other Book</button>
 </div>
 
 
