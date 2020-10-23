@@ -1,1 +1,0 @@
-this.$emit("pick-one", this.id);
