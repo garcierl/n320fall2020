@@ -1,32 +1,25 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+
+section {
+  text-align: center;
 }
-line {
-  stroke-width: 8;
-  stroke-linecap: round;
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 400px;
+  margin: 75px;
 }
-circle {
-  stroke-width: 8;
-  fill: none;
-}
-.player1 {
-  stroke: #32BBFA;
-}
-.player2 {
-  stroke: #FA7132;
-}
-.grid {
-  stroke: #ddd;
-}
-#info {
-  margin: 50px 50px 0 0;
-  font-size: 2em;
+
+.cell {
+  font-family: Arial, sans-serif;
+  width: 125px;
+  height: 125px;
+  box-shadow: navy;
+  border: 1px solid black;
+  cursor: pointer;
+  line-height: 125px;
+  font-size: 75px;
 }
